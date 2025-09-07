@@ -1,6 +1,8 @@
 # BeeSpeed
 
-Minecraft Spigot 1.21.4用のハチ速度制御プラグイン
+Minecraft Spigot用のハチ速度制御プラグイン
+- 対象バージョン：Spigot 1.21.4
+
 
 ## ビルド方法
 
