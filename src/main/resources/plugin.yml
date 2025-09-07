@@ -1,0 +1,31 @@
+name: BeeSpeed
+version: '1.0.0'
+description: A plugin to control bee flight speed
+author: ishidatami
+main: org.ishidatami.beespeed.BeeSpeed
+api-version: '1.21'
+
+commands:
+  beespeed:
+    description: Set bee speed multiplier
+    usage: /beespeed set <multiplier>
+    permission: beespeed.modify
+
+    aliases:
+      - bs
+    tab-complete:
+      set:
+        - "1"
+        - "2"
+        - "3"
+        - "5"
+        - "10"
+  bs:
+    description: Alias for beespeed
+    usage: /bs set <multiplier>
+    permission: beespeed.modify
+
+permissions:
+  beespeed.modify:
+    description: Allows modifying bee speed
+    default: op

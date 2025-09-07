@@ -1,0 +1,39 @@
+# ライブラリ
+libs/
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+/.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Java
+out/
+
+# JARs（生成物）
+*.jar
+
+# サブモジュール関連
+.gitmodules
+.gitmodule
+.git/
+
+# その他
+*.swp
+*.swo
